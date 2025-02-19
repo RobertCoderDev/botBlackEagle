@@ -8,7 +8,7 @@ app.use(express.json());
 let sock;
 
 const connectWhatsApp = async () => {
-  const { state, saveCreds } = await useMultiFileAuthState('baileys_auth');
+  const { state, saveCreds } = await useMultiFileAuthState('/tmp/baileys_auth');
   sock = makeWASocket({
     auth: state,
     printQRInTerminal: true,
