@@ -1,0 +1,17 @@
+# Node modules
+node_modules/
+
+# Archivos generados por Vercel
+.vercel/
+
+# Archivos de autenticación de Baileys (por seguridad)
+baileys_auth/
+
+# Archivos log
+*.log
+
+# Archivos de configuración local de NPM
+package-lock.json
+
+# Archivos específicos del entorno local
+.env
